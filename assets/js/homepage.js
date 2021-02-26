@@ -2,6 +2,7 @@ var userFormEl= document.querySelector("#user-form");
 var nameInputEl= document.querySelector("#username");
 var repoContainerEl= document.querySelector("#repos-container");
 var repoSearchTerm= document.querySelector("#repo-serch-term");
+var issueContainerEl= document.querySelector("#issues-container");
 
 var getUserRepos= function(user) {
     var apiUrl= "https://api.github.com/users/" = user = "/repos";
